@@ -16,7 +16,8 @@ A **job description** is the base record for any job the user is tracking. A des
 
 ## 1. Use Case Diagram
 
-![alt text](image-1.png)
+<img width="933" height="658" alt="image" src="https://github.com/user-attachments/assets/57d0bae2-a51e-431a-84c2-3861b04b9837" />
+
 
 The Job Seeker is the single actor and directly initiates four use cases: Enter or Edit Current Job, Enter Job Offer, Adjust Comparison Settings, and Compare Job Offers. Compare Job Offers **includes** Rank Job Offers, which the system performs as part of every comparison, and Enter Job Offer **extends** Compare Job Offers, since after saving an offer the user may move directly into a comparison.
 
